@@ -9,6 +9,7 @@
 \usepackage{float}
 \usepackage{caption}
 \usepackage[hidelinks]{hyperref}
+\usepackage{xurl}
 
 \renewcommand{\figurename}{Figura}
 \renewcommand{\tablename}{Tabla}
@@ -180,8 +181,11 @@ a^t&=(0.250)(\vaest)=\vatest~\text{m/s}^2,\qquad a^n=(0.250)(\vwest)^2=\vanest~\
 \label{fig:est}
 \end{figure}
 
-\textbf{Todo el recorrido.} Con un script en Python se evaluaron las ecuaciones en toda la
-maniobra (Tabla~\ref{tab:res} y Figura~\ref{fig:grip}). Los máximos ocurren con el brazo vertical
+\textbf{Todo el recorrido.} Con scripts en Python se evaluaron las ecuaciones en toda la
+maniobra (Tabla~\ref{tab:res} y Figura~\ref{fig:grip}). Los scripts de todos los cálculos y
+gráficas de este avance están en el repositorio:
+\begin{center}\footnotesize\url{https://github.com/diegoPonton/scripts-de-calculos-y-gr-ficas-mecanica-de-maquinaria-proyecto}\end{center}
+Los máximos ocurren con el brazo vertical
 ($\theta_2=90^\circ$, $t=1.5$~s): $\omega_2=\vwmax$~rad/s, $|\mathbf{v}_P|=\vvPmax$~m/s y
 $|\mathbf{a}_P|=\vaPmax$~m/s$^2$. La aceleración angular máxima es $\alpha_2=\vamax$~rad/s$^2$.
 
